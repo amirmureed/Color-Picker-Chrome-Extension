@@ -1,0 +1,22 @@
+{
+    "name": "Color Picker",
+    "description": "Color Picker for front-end developers",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+
+    "icons": {
+        "128": "/images/icon.png"
+    }
+
+}
